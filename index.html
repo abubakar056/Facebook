@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.pkz.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./UOS LOGO.png" alt="">
+
+    <h1>FORM VALIDATION</h1>
+
+    <form name="myForm" onsubmit="return validateForm()">
+
+        <div class="formdesign" id="name">
+            Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="email">
+            Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            Phone: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="pass">
+            Password: <input type="password" name="fpass" required><b><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+            Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+        </div>
+
+        <input class="button" onclick="abc()" type="submit" value="Sign Up">
+        <h2>Table</h2>
+
+  <table>
+<td>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>CINC</th>
+            <th>Session</th>
+
+        </tr>
+        <tr>
+            <td>Zahid Suleman</td>
+            <td>BSIT-E1-20-23</td>
+            <td>36501-0987676-1</td>
+            <td>2020-24</td>
+
+        </tr>
+        <tr>
+            <td>Usman Sharif</td>
+            <td>BSIT-E1-20-51</td>
+            <td>36501-7897676-1</td>
+            <td>2020-24</td>
+
+        </tr>
+    </table>
+</td>
+    <td>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>CINC</th>
+            <th>Session</th>
+
+        </tr>
+        <tr>
+            <td>Muhamamd Abubakar</td>
+            <td>BSIT-E1-20-06</td>
+            <td>36501-0864289-3</td>
+            <td>2020-24</td>
+
+        </tr>
+        <tr>
+            <td>Kashan Anjum</td>
+            <td>BSIT-E1-20-01</td>
+            <td>36501-8997676-1</td>
+            <td>2020-24</td>
+
+        </tr>
+    </table>
+</td>
+</table>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
